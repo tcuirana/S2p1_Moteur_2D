@@ -126,13 +126,17 @@
     <ClCompile Include="Alive.cpp" />
     <ClCompile Include="AMovable.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="IAttacker.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="StaticObject.cpp" />
     <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Alive.h" />
     <ClInclude Include="AMovable.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="IAttacker.h" />
+    <ClInclude Include="StaticObject.h" />
     <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
